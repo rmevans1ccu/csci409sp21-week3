@@ -1,0 +1,12 @@
+{
+    "name": "rmeva/week3oop",
+    "authors": [
+        {
+            "name": "Robert Evans",
+            "email": "rmevans1@coastal.edu"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
