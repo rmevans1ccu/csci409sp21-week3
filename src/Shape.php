@@ -3,7 +3,7 @@
 
 class Shape
 {
-    const SHAPE_ID = 1;
+    const SHAPE_TYPE = 1;
     public $name;
     protected $length;
     protected $width;
@@ -35,7 +35,7 @@ class Shape
     }
 
     public static function getTypeDescription(){
-        return "Type: ". self::SHAPE_ID;
+        return "Type: ". self::SHAPE_TYPE;
     }
 
     public function getFullDescription(){
