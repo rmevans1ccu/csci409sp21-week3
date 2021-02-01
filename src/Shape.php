@@ -35,7 +35,7 @@ class Shape
     }
 
     public static function getTypeDescription(){
-        return "Type: ". self::SHAPE_TYPE;
+        return "Type: ". static::SHAPE_TYPE;
     }
 
     public function getFullDescription(){
