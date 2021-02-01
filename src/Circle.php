@@ -13,7 +13,7 @@ class Circle extends Shape
     }
 
     public function area(){
-        return 3.14 * pow($this->radius, 2);
+        return pi() * pow($this->radius, 2);
     }
 
     public function getFullDescription(){
